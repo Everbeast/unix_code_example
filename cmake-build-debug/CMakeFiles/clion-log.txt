@@ -1,0 +1,4 @@
+/usr/local/Cellar/cmake/3.15.3/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/9.2.0/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.2.0/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/chill/Desktop/code/unixcode
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/chill/Desktop/code/unixcode/cmake-build-debug
