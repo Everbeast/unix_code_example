@@ -231,6 +231,33 @@ more02.cpp.s:
 	$(MAKE) -f CMakeFiles/unixcode.dir/build.make CMakeFiles/unixcode.dir/more02.cpp.s
 .PHONY : more02.cpp.s
 
+play_again.o: play_again.cpp.o
+
+.PHONY : play_again.o
+
+# target to build an object file
+play_again.cpp.o:
+	$(MAKE) -f CMakeFiles/unixcode.dir/build.make CMakeFiles/unixcode.dir/play_again.cpp.o
+.PHONY : play_again.cpp.o
+
+play_again.i: play_again.cpp.i
+
+.PHONY : play_again.i
+
+# target to preprocess a source file
+play_again.cpp.i:
+	$(MAKE) -f CMakeFiles/unixcode.dir/build.make CMakeFiles/unixcode.dir/play_again.cpp.i
+.PHONY : play_again.cpp.i
+
+play_again.s: play_again.cpp.s
+
+.PHONY : play_again.s
+
+# target to generate assembly for a file
+play_again.cpp.s:
+	$(MAKE) -f CMakeFiles/unixcode.dir/build.make CMakeFiles/unixcode.dir/play_again.cpp.s
+.PHONY : play_again.cpp.s
+
 pwd.o: pwd.cpp.o
 
 .PHONY : pwd.o
@@ -306,6 +333,9 @@ help:
 	@echo "... more02.o"
 	@echo "... more02.i"
 	@echo "... more02.s"
+	@echo "... play_again.o"
+	@echo "... play_again.i"
+	@echo "... play_again.s"
 	@echo "... pwd.o"
 	@echo "... pwd.i"
 	@echo "... pwd.s"
